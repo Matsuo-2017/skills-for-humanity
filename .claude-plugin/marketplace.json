@@ -1,0 +1,14 @@
+{
+  "name": "skills-for-humanity",
+  "owner": {
+    "name": "Finn Fitzsimons",
+    "email": "fitzsimons.finn@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "skills-for-humanity",
+      "source": "./",
+      "description": "A structured toolkit of thinking skills for Claude Code — covering logic, ethics, creativity, decision-making, systems thinking, communication, and more. Each skill is an invokable command that applies a specific reasoning framework to any situation."
+    }
+  ]
+}
