@@ -311,6 +311,12 @@ Every skill pauses before running and asks how deep you want to go.
 - [`/sensory-signal-detection`](docs/sensory/signal-detection.md) — Separates meaningful signal from background noise — finding what actually matters among everything present.
 - [`/sensory-structured-observation`](docs/sensory/structured-observation.md) — Applies disciplined observation to a situation — suspending interpretation to see what's actually there before deciding what it means.
 
+### Work With Documents
+
+#### `/markitdown`
+
+- [`/markitdown`](docs/markitdown/README.md) — Converts documents and files (PDF, Word, PowerPoint, Excel, images, audio, HTML, CSV/JSON/XML, ZIP, EPub, YouTube URLs) into clean, LLM-ready Markdown using Microsoft MarkItDown — the bridge that gets content out of a file and into a form you can reason over.
+
 ---
 
 ## Examples
@@ -392,3 +398,6 @@ Your apartment feels wrong but you can't articulate why. `/aesthetic-coherence-c
 
 #### `/sensory`
 You've read the same paragraph four times and nothing is sticking. `/sensory-signal-detection` asks what's actually present in your environment right now that you've stopped registering — and finds three things competing for the same attention channel.
+
+#### `/markitdown`
+A 60-page board deck lands in your inbox as a `.pptx` and you need the numbers, not the animations. `/markitdown` converts it to clean Markdown — tables intact, headings preserved — so you can summarize and reason over the content in seconds, while flagging the one chart slide whose figures were image-only and need a manual check.
